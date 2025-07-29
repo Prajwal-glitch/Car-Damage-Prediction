@@ -5,6 +5,8 @@ An interactive web application that allows users to **drag and drop a car image*
 
 > ⚠️ Note: The model is trained specifically on **third-quarter front and rear views** of vehicles. For accurate predictions, input images should capture these angles.
 
+Live Demo - https://prajwal-glitch-car-damage-prediction-app-q4kknl.streamlit.app/
+
 ![App Screenshot](app_screenshot.jpg)
 
 ---
