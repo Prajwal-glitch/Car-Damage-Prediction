@@ -1,28 +1,36 @@
-# Vehicle Damange Detection App
 
-This app let's you drag and drop an image of a car and it will tell you what kind of damage it has.
-The model is trained on third quarter front and rare view hence the picture should capture the third quarter front or rare view of a car. 
+# 🚗 Vehicle Damage Detection Web App
 
-![app](app_screenshot.jpg)
+An interactive web application that allows users to **drag and drop a car image** and instantly identifies the **type of visible damage**. Designed with ease-of-use and real-world applicability in mind, the app leverages deep learning to provide fast, reliable classification.
 
-### Model Details
-1. Used ResNet50 for transfer learning
-2. Model was trained on around 1700 images with 6 target classes
-   1. Front Normal
-   1. Front Crushed
-   1. Front Breakage
-   1. Rear Normal
-   1. Rear Crushed
-   1. Rear Breakage
-9. The accuracy on the validation set was around 80%
+> ⚠️ Note: The model is trained specifically on **third-quarter front and rear views** of vehicles. For accurate predictions, input images should capture these angles.
 
-### Set Up
+![App Screenshot](app_screenshot.jpg)
 
-1. To get started, first install the dependencies using:
-    ```commandline
-     pip install -r requirements.txt
-    ```
-   
-2. Run the streamlit app:
-   ```commandline
-   streamlit run app.py# Car-Damage-Prediction
+---
+
+### 🧠 Model Architecture
+
+- Utilized **ResNet50** for transfer learning.
+- Trained on a dataset of approximately **1,700 images** across **6 distinct classes**:
+  1. Front – Normal  
+  2. Front – Crushed  
+  3. Front – Breakage  
+  4. Rear – Normal  
+  5. Rear – Crushed  
+  6. Rear – Breakage  
+- Achieved **~80% validation accuracy**.
+
+---
+
+### ⚙️ Setup Instructions
+
+1. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Launch the Streamlit App**
+   ```bash
+   streamlit run app.py
+   ```
